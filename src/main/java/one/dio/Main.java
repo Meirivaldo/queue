@@ -22,8 +22,8 @@ public class Main {
         System.out.println(queueCarros); //Tenta adicionar, se não conseguir adicionar retorna false.
 
         System.out.println(queueCarros.peek());
-        System.out.println(queueCarros); // Vai pegar o primeiro elemento da fila, pega
-        // , e se tiver vazia retorna null.
+        System.out.println(queueCarros); // Vai pegar o primeiro elemento da fila,
+        // e se tiver vazia retorna null.
 
         System.out.println(queueCarros.poll()); //Pega o primeiro elemento da fila e remove.
         System.out.println(queueCarros);
